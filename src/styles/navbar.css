@@ -1,0 +1,26 @@
+.navlist{
+    display: flex;
+    justify-content: center;
+}
+.navlist a{
+    text-decoration: none;
+}
+.navlist-wrapper{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    border: 1px solid white;
+    justify-content: space-around;
+    border-radius:50px;
+    
+}
+.navlink{
+    border-radius: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.navlink:hover,
+.navlink:focus,
+.navlink.active {
+  background-color: white; /* White background on hover or active */
+  color: #333; /* Dark text color on hover or active */
+}
